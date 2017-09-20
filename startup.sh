@@ -47,5 +47,5 @@ EOF
   rm -f $tfile
 fi
 
-
+mkdir -pv /run/mysqld
 exec /usr/bin/mysqld --user=root --console
